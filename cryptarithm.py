@@ -19,7 +19,7 @@ from collections import defaultdict
 from itertools import combinations
 import numpy as np
 
-from dimod import BQM
+from dimod import bqm
 from dwave.system import LeapHybridDQMSampler
 from utilities import parse_problem_file, update_coefficient_map_and_first_letter_set, render_solution
 
